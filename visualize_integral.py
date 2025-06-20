@@ -34,6 +34,3 @@ def visualize_integral(f, a, b):
     plt.grid()
     plt.show()
 
-
-# if __name__ == "__main__":
-#     visualize_integral()

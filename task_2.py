@@ -1,13 +1,14 @@
 import random
 import scipy.integrate as spi
 from visualize_integral import visualize_integral
+import numpy as np
 
 
 def f(x):
-        return x ** 2
-
+        return np.sin(x)
+        
 a = 0  # Нижня межа
-b = 2  # Верхня межа
+b = np.pi
 
 visualize_integral(f, a, b)
 
